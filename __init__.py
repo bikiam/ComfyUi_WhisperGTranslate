@@ -5,5 +5,6 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "WhisperAudioTranslateNode": "Whisper + Translate Node"
+    "WhisperAudioTranslateNode": "Whisper + AudioTranslate"
 }
+__all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
