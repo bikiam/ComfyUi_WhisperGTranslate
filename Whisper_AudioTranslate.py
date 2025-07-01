@@ -18,10 +18,10 @@ class WhisperAudioTranslateNode:
             "required": {
                 "audio": ("AUDIO", ),
                 "source_language": ("STRING", {
-                    "default": "en"
+                    "default": "bn"
                 }),
                 "target_language": ("STRING", {
-                    "default": ""
+                    "default": "en"
                 }),
                 "whisper_model_size": (["tiny", "base", "small", "medium", "large"], {
                     "default": "small"
